@@ -45,11 +45,11 @@ header nav p {
 }
 
 header nav ul {
-    display: flex; /* Deixa um ao lado do outro */
+    display: flex;
 }
 
 header nav li {
-    margin: 0 15px; /* Espaçamento */
+    margin: 0 15px;
 }
 
 .header-content {
@@ -211,10 +211,10 @@ header nav li {
     background-color: #1D61DD;
 }
 
-/* INSERINDO O MAPA PARA A LOCALIZAÇÃO */
+/* INSERINDO O MAPA */
 #map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
+    height: 400px;
+    width: 100%;
 }
 
 .contato {
@@ -240,7 +240,7 @@ header nav li {
     flex-direction: column;
     justify-content: center;
 
-    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28); /* Fiz uma sombra por volta do card 'Contato'*/
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
 }
 
 .contato .contato-card h1 {
@@ -324,17 +324,3 @@ header nav li {
 
     
 }
-
-/*  
-@media (max-width: 768px) and (max-width: 979px) {
-    header {
-        background: blue;
-    }
-}
-
-
-@media (max-width: 1200px) {
-    header {
-        background: green;
-    }
-}*/
